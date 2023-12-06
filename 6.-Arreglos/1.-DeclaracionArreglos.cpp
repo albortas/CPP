@@ -13,5 +13,15 @@ int main(){
     for (int i = 0; i < 5; i++){
         cout << "Valor " << i+1 << " Arreglo[" << i <<"]" << " = " << numeroArreglo[i] << endl;
     }
+    cout << endl << endl;
+
+    //Sintaxis simplificada
+    int numeros[] = {100, 200, 300, 400, 500};
+    int largoArrglo = sizeof(numeros)/sizeof(numeros[0]);
+    cout << "Valor largoArreglo = " << largoArrglo << endl; 
+    for (int i = 0; i < largoArrglo; i++){
+        cout << "Valor " << i+1 << " Arreglo[" << i <<"]" << " = " << numeros[i] << endl;
+    }
+
     return 0;
 }
