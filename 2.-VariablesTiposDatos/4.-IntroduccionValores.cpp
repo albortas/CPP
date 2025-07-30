@@ -11,11 +11,11 @@ int main(){
     cout << "El numero proporcionado es: " << entero << endl;
     
     //1. Declarar la variable de tipo cadena
-    string cadena;
+    string nombre;
     cout << "Proporciona tu nombre: ";
-    //cin >> cadena;
+    //cin >> nombre; // No lee la linea completa, sino hasta un espacio
     cin.ignore(); //Limpiamos el buffer
-    getline(cin, cadena);
-    cout << "Tu nombre es: " << cadena << endl;
+    getline(cin, nombre);
+    cout << "Tu nombre es: " << nombre << endl;
     return 0;
 }

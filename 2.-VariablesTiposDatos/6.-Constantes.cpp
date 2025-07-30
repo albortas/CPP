@@ -1,12 +1,13 @@
 #include<iostream>
 #include<cmath>
 #include<iomanip>
-#define PI 3.1416
+
+#define PI 3.1416  //Ultimo recurso para defir constates
 
 using namespace std;
 
 int main(){
-    const int MI_CONSTANTE = 10;
+    const int MI_CONSTANTE = 100;
     //MI_CONSTANTE = 10;
     //const float PI = 3.14;
     cout << "Mi constante: " << MI_CONSTANTE << endl;

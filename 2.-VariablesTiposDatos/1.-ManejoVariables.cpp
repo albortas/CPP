@@ -1,11 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main(){
-    int entero = 10;
+    // 1. Declarar varible y asignar un valor
+    int entero = 10;  
     float flotante = 7.9;
+    flotante = 7.5;
 
-    cout << "Entero: " << entero << ", Flotante: " << flotante << endl;
+    cout << "Entero: " << entero << endl;
+    cout << "Flotante: " << flotante << endl;
 
     return 0;
 }

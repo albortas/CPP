@@ -1,5 +1,5 @@
 #include<iostream>
-#include<iomanip>
+#include<iomanip>  //Input-output-manipulation
 
 using namespace std;
 
@@ -9,10 +9,10 @@ int main(){
     cout << "Entero: " << entero << endl;
     //Tipo Flotante
     float flotante = 8.9;
-    cout << fixed << setprecision(2);
+    cout << fixed << setprecision(2);  //Dos decimales
     cout << "Flotante: " << flotante << endl;
     // Tipo doble
-    double doble = 9.9999;
+    double doble = 9.9999;  
     cout << "Doble: " << doble << endl;
     //Tipo caracter
     char caracter = 'A';
@@ -23,7 +23,7 @@ int main(){
     bool booleano = true;
     cout << "Booleano: " << booleano << endl;
     //Cadena (como en el leguaje C)
-    char cadena1[] = "Hola Munddo";
+    char cadena1[] = "Hola Mundo";
     cout << "Cadena 1: " << cadena1 << endl;
     //Usando la clase string
     string cadena2 = "Adios";
